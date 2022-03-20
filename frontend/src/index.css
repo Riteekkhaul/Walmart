@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+   .category{
+    @apply mx-3;
+  }
+  .round{
+    @apply w-10 h-10  rounded-3xl bg-gray-300 items-center justify-items-center
+  }
+
+  .icon{
+    @apply text-3xl mx-auto  items-center justify-items-center pt-2
+  }
+
+  .banner{
+    @apply flex flex-row 
+  }
+  .cardcon{
+    @apply mt-10 border-black  flex flex-row 
+  }
+  .card{
+    @apply grid-rows-1 border-black rounded bg-gray-300 mx-1  
+  }
+
+  .caption{
+    @apply h-12 py-3   text-center gap-x-8
+  }
